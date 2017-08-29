@@ -29,6 +29,7 @@ function makeTimerIndia() {
         document.getElementById("india").innerHTML = "Many Many Happy returns of the Day, Wishes from INDIA!!!";
         document.getElementById("timerIndia").style.visibility = "hidden";
         document.getElementById("divM").style.visibility = "visible";
+        document.getElementById("btnDare").style.visibility = "hidden";
     }
 
 }
