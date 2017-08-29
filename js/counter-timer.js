@@ -70,7 +70,7 @@ function makeTimerMichigan() {
 
     if (days==-1)
     {
-        document.getElementById("india").innerHTML = "Here's Michigan, Wishing you a Very Happy Birthday ...!!!";
+        document.getElementById("mich").innerHTML = "Here's Michigan, Wishing you a Very Happy Birthday ...!!!";
     }
 
     if(days==00 && hours==00 && minutes==0 && seconds ==0)
