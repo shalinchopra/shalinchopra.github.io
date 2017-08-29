@@ -1,3 +1,7 @@
+var ind = setInterval(function() { makeTimerIndia(); }, 1000);
+var mic = setInterval(function() { makeTimerMichigan(); }, 1000);
+var chi = setInterval(function() { makeTimerChicago(); }, 1000);
+
 function makeTimerIndia() {
 
     var endTime = new Date("August 30, 2017 00:00:00 GMT+0530");			
@@ -21,8 +25,12 @@ function makeTimerIndia() {
     $("#hours1").html(hours + "<span>Hours</span>");
     $("#minutes1").html(minutes + "<span>Minutes</span>");
     $("#seconds1").html(seconds + "<span>Seconds</span>");
-    
-   
+
+
+    if (days==-1)
+    {
+        document.getElementById("india").innerHTML = "Many Many Happy returns of the Day, Wishes from INDIA!!!";
+    }
     if(days==00 && hours==00 && minutes==0 && seconds ==0)
     {
         //alert(minutes);
@@ -30,6 +38,8 @@ function makeTimerIndia() {
         document.getElementById("timerIndia").style.visibility = "hidden";
         document.getElementById("divM").style.visibility = "visible";
         document.getElementById("btnDare").style.visibility = "hidden";
+
+        clearInterval(ind);
     }
 
 }
@@ -58,6 +68,10 @@ function makeTimerMichigan() {
     $("#minutes2").html(minutes + "<span>Minutes</span>");
     $("#seconds2").html(seconds + "<span>Seconds</span>");
 
+    if (days==-1)
+    {
+        document.getElementById("india").innerHTML = "Here's Michigan, Wishing you a Very Happy Birthday ...!!!";
+    }
 
     if(days==00 && hours==00 && minutes==0 && seconds ==0)
     {
@@ -65,6 +79,8 @@ function makeTimerMichigan() {
         document.getElementById("mich").innerHTML = "Here's Michigan, Wishing you a Very Happy Birthday ...!!!";
         document.getElementById("timerMichigan").style.visibility = "hidden";
         document.getElementById("divC").style.visibility = "visible";
+
+        clearInterval(mic);
     }
 
 }
@@ -92,17 +108,21 @@ function makeTimerChicago() {
     $("#hours3").html(hours + "<span>Hours</span>");
     $("#minutes3").html(minutes + "<span>Minutes</span>");
     $("#seconds3").html(seconds + "<span>Seconds</span>");	
-    
+
+    if (days==-1)
+    {
+        document.getElementById("chi").innerHTML = "Happy Birthday from all of us at TEEN GHAR!!!";
+    }
     if(days==00 && hours==00 && minutes==0 && seconds ==0)
     {
         //alert(minutes);
         document.getElementById("chi").innerHTML = "Happy Birthday from all of us at TEEN GHAR!!!";
         document.getElementById("timerChicago").style.visibility = "hidden";
         document.getElementById("btnDare").style.visibility = "visible";
+
+        clearInterval(chi);
     }
 
 }
 
-setInterval(function() { makeTimerIndia(); }, 1000);
-setInterval(function() { makeTimerMichigan(); }, 1000);
-setInterval(function() { makeTimerChicago(); }, 1000);
+
