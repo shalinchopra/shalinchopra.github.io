@@ -7,6 +7,10 @@
 
 /* Global Styles */
 
+#imageSlider {
+    background-image: url("../img/quiz-bg.jpeg");
+}
+
 html,
 body {
     width: 100%;
