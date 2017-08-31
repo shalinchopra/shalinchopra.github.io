@@ -30,7 +30,7 @@ function makeTimerIndia() {
     if (days==-1)
     {
         document.getElementById("india").innerHTML = "Many Many Happy returns of the Day, Wishes from INDIA!!!";
-        document.getElementById("timerIndia").style.visibility = "hidden";
+        
         document.getElementById("divM").style.visibility = "visible";
 
     }
@@ -38,10 +38,10 @@ function makeTimerIndia() {
     {
         //alert(minutes);
         document.getElementById("india").innerHTML = "Many Many Happy returns of the Day, Wishes from INDIA!!!";
-        document.getElementById("timerIndia").style.visibility = "hidden";
+        //document.getElementById("timerIndia").style.visibility = "hidden";
         document.getElementById("divM").style.visibility = "visible";
-        document.getElementById("btnDare1").style.visibility = "hidden";
-        document.getElementById("btnDare2").style.visibility = "visible";
+        //document.getElementById("btnDare1").style.visibility = "hidden";
+        //document.getElementById("btnDare2").style.visibility = "visible";
 
         clearInterval(ind);
     }
@@ -75,7 +75,7 @@ function makeTimerMichigan() {
     if (days==-1)
     {
         document.getElementById("mich").innerHTML = "Here's Michigan, Wishing you a Very Happy Birthday ...!!!";
-        document.getElementById("timerMichigan").style.visibility = "hidden";
+        //document.getElementById("timerMichigan").style.visibility = "hidden";
         document.getElementById("divC").style.visibility = "visible";
     }
 
@@ -83,9 +83,9 @@ function makeTimerMichigan() {
     {
         //alert(minutes);
         document.getElementById("mich").innerHTML = "Here's Michigan, Wishing you a Very Happy Birthday ...!!!";
-        document.getElementById("timerMichigan").style.visibility = "hidden";
+        //document.getElementById("timerMichigan").style.visibility = "hidden";
         document.getElementById("divC").style.visibility = "visible";
-        document.getElementById("btnDare2").style.visibility = "hidden";
+       // document.getElementById("btnDare2").style.visibility = "hidden";
         document.getElementById("btnDare3").style.visibility = "visible";
 
         clearInterval(mic);
@@ -120,13 +120,13 @@ function makeTimerChicago() {
     if (days==-1)
     {
         document.getElementById("chi").innerHTML = "Happy Birthday from all of us at TEEN GHAR!!!";
-        document.getElementById("timerChicago").style.visibility = "hidden";
+        //document.getElementById("timerChicago").style.visibility = "hidden";
     }
     if(days==00 && hours==00 && minutes==0 && seconds ==0)
     {
         //alert(minutes);
         document.getElementById("chi").innerHTML = "Happy Birthday from all of us at TEEN GHAR!!!";
-        document.getElementById("timerChicago").style.visibility = "hidden";
+        //document.getElementById("timerChicago").style.visibility = "hidden";
         document.getElementById("btnDare3").style.visibility = "visible";
 
         clearInterval(chi);
