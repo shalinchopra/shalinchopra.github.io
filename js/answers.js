@@ -144,7 +144,7 @@ function a6Check()
 function a7Check()
 {
     var answer = document.getElementById("a7").value;
-    if (answer.toLowerCase() == "pati")
+    if (answer.toLowerCase() == "shivam")
     {
         $("#q7v").modal();
     }
