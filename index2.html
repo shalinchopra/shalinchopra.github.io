@@ -25,27 +25,6 @@
         <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
         <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
 
-        <script type="text/javascript">
-            $(document).ready(function () {
-                $('#myCarousel1').carousel({
-                    interval: 10000
-                });
-                $('#myCarousel2').carousel({
-                    interval: 10000
-                });
-                $('#myCarousel3').carousel({
-                    interval: 10000
-                });
-
-                $('#myCarousel1').carousel('cycle');
-                $('#myCarousel2').carousel('cycle');
-                $('#myCarousel3').carousel('cycle');
-            });
-
-
-
-        </script>  
-
     </head>
 
     <body>
@@ -62,253 +41,34 @@
                     <a id="awesome" class="js-scroll-trigger" href="#top" onclick=showTop();>I'm AWESOME</a>
                 </li>
                 <li>
-                    <a class="js-scroll-trigger" href="#about">Quiz</a>
+                    <a class="js-scroll-trigger" href="#about">MM</a>
                 </li>
             </ul>
         </nav>
 
         <!-- Image Slider -->
 
-        <div id="imageSlider">
-            <div id="car" class="container">
-                <div class="col-xs-12">
-                    <div class="well">
-                        <div id="myCarousel1" class="carousel slide">
-                            <!-- Carousel items -->
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <div class="row">
-                                        <div class="col-md-2">
-                                            <a href="img/car1/1.jpeg" class="thumbnail"><img src="img/car1/1.jpeg" alt="Image" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <a href="img/car1/2.jpeg" class="thumbnail"><img src="img/car1/2.jpeg" alt="Image" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <a href="img/car1/3.jpeg" class="thumbnail"><img src="img/car1/3.jpeg" alt="Image" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <a href="img/car1/4.jpeg" class="thumbnail"><img src="img/car1/4.jpeg" alt="Image" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <a href="img/car1/5.jpeg" class="thumbnail"><img src="img/car1/5.jpeg" alt="Image" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <a href="img/car1/6.jpeg" class="thumbnail"><img src="img/car1/6.jpeg" alt="Image" class="img-responsive"></a>
-                                        </div>
-
-                                    </div>
-                                    <!--/row-->
-                                </div>
-                                <!--/item-->
-                                <div class="item">
-                                    <div class="row">
-                                        <div class="col-md-2">
-                                            <a href="img/car1/7.jpeg" class="thumbnail"><img src="img/car1/7.jpeg" alt="Image" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <a href="img/car1/8.jpeg" class="thumbnail"><img src="img/car1/8.jpeg" alt="Image" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <a href="img/car1/9.jpeg" class="thumbnail"><img src="img/car1/9.jpeg" alt="Image" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <a href="img/car1/10.jpeg" class="thumbnail"><img src="img/car1/10.jpeg" alt="Image" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <a href="img/car1/11.jpeg" class="thumbnail"><img src="img/car1/11.jpeg" alt="Image" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <a href="img/car1/12.jpeg" class="thumbnail"><img src="img/car1/12.jpeg" alt="Image" class="img-responsive"></a>
-                                        </div>
-                                    </div>
-                                    <!--/row-->
-                                </div>
-                                <!--/item-->
-
-                            </div>
-                            <!--/carousel-inner--> <a class="left carousel-control" href="#myCarousel1" data-slide="prev">‹</a>
-
-                            <a class="right carousel-control" href="#myCarousel1" data-slide="next">›</a>
-                        </div>
-                        <!--/myCarousel-->
-                    </div>
-                    <!--/well-->
-                </div>
-            </div>
-
-
-            <div align="center">
-                <button id="btnCar1" type="button" class="btn" onclick=showCar1();>
-                    <div class="project-category text-faded">
-                        See More ..
-                    </div>
-                </button>
-            </div>
-
-
-            <div id="car2" class="container"  style="visibility:hidden">
-                <div class="col-xs-12">
-                    <div class="well">
-                        <div id="myCarousel2" class="carousel slide">
-                            <!-- Carousel items -->
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <div class="row">
-                                        <div class="col-md-2">
-                                            <a href="img/car2/1.jpg" class="thumbnail"><img src="img/car2/1.jpg" alt="Image" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <a href="img/car2/2.jpg" class="thumbnail"><img src="img/car2/2.jpg" alt="Image" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <a href="img/car2/3.jpg" class="thumbnail"><img src="img/car2/3.jpg" alt="Image" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <a href="img/car2/4.jpg" class="thumbnail"><img src="img/car2/4.jpg" alt="Image" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <a href="img/car2/5.jpg" class="thumbnail"><img src="img/car2/5.jpg" alt="Image" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <a href="img/car2/6.jpg" class="thumbnail"><img src="img/car2/6.jpg" alt="Image" class="img-responsive"></a>
-                                        </div>
-
-                                    </div>
-                                    <!--/row-->
-                                </div>
-                                <!--/item-->
-                                <div class="item">
-                                    <div class="row">
-                                        <div class="col-md-2">
-                                            <a href="img/car2/7.jpg" class="thumbnail"><img src="img/car2/7.jpg" alt="Image" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <a href="img/car2/8.jpg" class="thumbnail"><img src="img/car2/8.jpg" alt="Image" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <a href="img/car2/9.jpg" class="thumbnail"><img src="img/car2/9.jpg" alt="Image" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <a href="img/car2/10.jpg" class="thumbnail"><img src="img/car2/10.jpg" alt="Image" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <a href="img/car2/11.jpg" class="thumbnail"><img src="img/car2/11.jpg" alt="Image" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <a href="img/car2/12.jpg" class="thumbnail"><img src="img/car2/12.jpg" alt="Image" class="img-responsive"></a>
-                                        </div>
-                                    </div>
-                                    <!--/row-->
-                                </div>
-                                <!--/item-->
-
-                            </div>
-                            <!--/carousel-inner--> <a class="left carousel-control" href="#myCarousel2" data-slide="prev">‹</a>
-
-                            <a class="right carousel-control" href="#myCarousel2" data-slide="next">›</a>
-                        </div>
-                        <!--/myCarousel-->
-                    </div>
-                    <!--/well-->
-                </div>
-            </div>
-
-            <div align="center" style="visibility:hidden">
-                <button id="btnCar2" type="button" class="btn" onclick=showCar2();>
-                    <div class="project-category text-faded">
-                        See More ..
-                    </div>
-                </button>
-            </div>
-
-            <div id="car3" class="container" style="visibility:hidden">
-                <div class="col-xs-12">
-                    <div class="well">
-                        <div id="myCarousel3" class="carousel slide">
-                            <!-- Carousel items -->
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <div class="row">
-                                        <div class="col-md-2">
-                                            <a href="img/car3/1.JPG" class="thumbnail"><img src="img/car3/1.JPG" alt="Image" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <a href="img/car3/2.JPG" class="thumbnail"><img src="img/car3/2.JPG" alt="Image" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <a href="img/car3/3.JPG" class="thumbnail"><img src="img/car3/3.JPG" alt="Image" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <a href="img/car3/4.JPG" class="thumbnail"><img src="img/car3/4.JPG" alt="Image" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <a href="img/car3/5.JPG" class="thumbnail"><img src="img/car3/5.JPG" alt="Image" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <a href="img/car3/6.JPG" class="thumbnail"><img src="img/car3/6.JPG" alt="Image" class="img-responsive"></a>
-                                        </div>
-
-                                    </div>
-                                    <!--/row-->
-                                </div>
-                                <!--/item-->
-                                <div class="item">
-                                    <div class="row">
-                                        <div class="col-md-2">
-                                            <a href="img/car3/7.JPG" class="thumbnail"><img src="img/car3/7.JPG" alt="Image" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <a href="img/car3/8.JPG" class="thumbnail"><img src="img/car3/8.JPG" alt="Image" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <a href="img/car3/9.jpg" class="thumbnail"><img src="img/car3/9.jpg" alt="Image" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <a href="img/car3/10.jpg" class="thumbnail"><img src="img/car3/10.jpg" alt="Image" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <a href="img/car3/11.jpg" class="thumbnail"><img src="img/car3/11.jpg" alt="Image" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <a href="img/car3/12.JPG" class="thumbnail"><img src="img/car3/12.JPG" alt="Image" class="img-responsive"></a>
-                                        </div>
-                                    </div>
-                                    <!--/row-->
-                                </div>
-
-                            </div>
-                            <!--/carousel-inner--> <a class="left carousel-control" href="#myCarousel3" data-slide="prev">‹</a>
-
-                            <a class="right carousel-control" href="#myCarousel3" data-slide="next">›</a>
-                        </div>
-                        <!--/myCarousel-->
-                    </div>
-                    <!--/well-->
-                </div>
-            </div>
-        </div>
         <!-- Header -->
         <header class="header" id="top">
             <div class="text-vertical-center">
                 <h1>I am Ishu</h1>
                 <h3>I am Awesome <i class="em em-heart"></i></h3>
-                <h3>and its my B'day today <i class="em em-birthday"></i></h3>
+                <h3>and its my 28th B'day today <i class="em em-birthday"></i></h3>
                 <br>
-                <a href="#quiz" class="btn btn-dark btn-lg js-scroll-trigger">Begin Surprise</a>
+                <a href="#quiz" class="btn btn-dark btn-lg js-scroll-trigger">Lets go</a>
             </div>
         </header>
 
         <!-- About -->
         <section id="quiz" class="about">
             <div class="container text-center">
-                <h2>Here is the deal B'day girl <i class="em em-dancer"></i></h2>
+                <h2>Handling THE "Ishu Jaswal" is not an easy task<i class="em em-dancer"></i></h2>
                 <p class="lead">
-                    You won't get it that easily, you'll have to earn it ..    
-                    For every correct/incorrect answer you give you have a surprise waiting for you
+                    You have to be brave enough to handle her in different moods, which can change in split seconds
                     <i class="em em-gift"></i></p>
-                <p class="lead">When I mean even Incorrect answer will be a Surprise just think about it ..<i class="em em-wink"></i></p>
-                <p class="lead"><i class="em em-warning"></i>Its not going to be that Easy Beta .. <i class="em em-smiling_imp"></i></p>
+                <p class="lead">Lets see if YOU can guess your own MOOD <i class="em em-wink"></i></p>
+                <h2><i class="em em-warning"></i>Ishu and her moods<i class="em em-smiling_imp"></i></h2>
+                <p class="lead"><i class="em em-wink"></i></p>
             </div>
             <!-- /.container -->
         </section>
@@ -318,11 +78,11 @@
             <div class="container">
                 <div class="row text-center">
                     <div class="col-lg-12 mx-auto">
-                        <h2>Start with a Sample Question, just to get a Hang of it ...</h2>
+                        <h2>Every box has your unique mood.. Answer the riddle and there is something behind it </h2>
                         <hr class="small">
                         <div class="row">
 
-                            <!--sample Question -->
+                            <!--sample Question Happy-->
                             <div class="col-md-3 col-sm-6">
                                 <div class="service-item">
                                     <span class="fa-stack fa-4x">
@@ -330,18 +90,18 @@
                                         <i class="fa fa-bug fa-stack-1x text-primary"></i>
                                     </span>
                                     <h4>
-                                        <strong>Sample Question</strong>
+                                        <strong>Moody</strong>
                                     </h4>
                                     <br>
                                     <button type="button" class="btn btn-light" data-toggle="modal" data-target="#sample">
                                         <div class="project-category text-faded">
-                                            Bring it ON!!
+                                            Who am I ?
                                         </div>
                                     </button>
                                 </div>
                             </div>
 
-                            <!-- Q1 -->
+                            <!-- Q1 Sad-->
                             <div class="col-md-3 col-sm-6">
                                 <div class="service-item">
                                     <span class="fa-stack fa-4x">
@@ -349,17 +109,17 @@
                                         <i class="fa fa-birthday-cake fa-stack-1x text-primary"></i>
                                     </span>
                                     <h4>
-                                        <strong>Insaan 1</strong>
+                                        <strong>Moody</strong>
                                     </h4>
                                     <br>
                                     <button type="button" class="btn btn-light" data-toggle="modal" data-target="#q1">
                                         <div class="project-category text-faded">
-                                            Bring it ON!!
+                                            Who am I ?
                                         </div>
                                     </button>
                                 </div>
                             </div>
-                            <!-- Q2 -->
+                            <!-- Q2 Crazy-->
                             <div class="col-md-3 col-sm-6">
                                 <div class="service-item">
                                     <span class="fa-stack fa-4x">
@@ -367,17 +127,17 @@
                                         <i class="fa fa-camera-retro fa-stack-1x text-primary"></i>
                                     </span>
                                     <h4>
-                                        <strong>Insaan 2</strong>
+                                        <strong>Moody</strong>
                                     </h4>
                                     <br>
                                     <button type="button" class="btn btn-light" data-toggle="modal" data-target="#q2">
                                         <div class="project-category text-faded">
-                                            Bring it ON!!
+                                            Who am I ?
                                         </div>
                                     </button>
                                 </div>
                             </div>
-                            <!-- Q3 -->
+                            <!-- Q3 Drunk-->
                             <div class="col-md-3 col-sm-6">
                                 <div class="service-item">
                                     <span class="fa-stack fa-4x">
@@ -385,12 +145,12 @@
                                         <i class="fa fa-credit-card-alt fa-stack-1x text-primary"></i>
                                     </span>
                                     <h4>
-                                        <strong>Insaan 3</strong>
+                                        <strong>Moody</strong>
                                     </h4>
                                     <br>
                                     <button type="button" class="btn btn-light" data-toggle="modal" data-target="#q3">
                                         <div class="project-category text-faded">
-                                            Bring it ON!!
+                                            Who am I ?
                                         </div>
                                     </button>
                                 </div>
@@ -401,7 +161,7 @@
 
                         <!--row 2-->
                         <div class="row">
-                            <!-- Q4 -->
+                            <!-- Q4 Shopping-->
                             <div class="col-md-3 col-sm-6">
                                 <div class="service-item">
                                     <span class="fa-stack fa-4x">
@@ -409,17 +169,17 @@
                                         <i class="fa fa-car fa-stack-1x text-primary"></i>
                                     </span>
                                     <h4>
-                                        <strong>Insaan 4</strong>
+                                        <strong>Moody</strong>
                                     </h4>
                                     <br>
                                     <button type="button" class="btn btn-light" data-toggle="modal" data-target="#q4">
                                         <div class="project-category text-faded">
-                                            Bring it ON!!
+                                            Who am I ?
                                         </div>
                                     </button>
                                 </div>
                             </div>
-                            <!-- Q5 -->
+                            <!-- Q5 Childish-->
                             <div class="col-md-3 col-sm-6">
                                 <div class="service-item">
                                     <span class="fa-stack fa-4x">
@@ -427,7 +187,7 @@
                                         <i class="fa fa-bed fa-stack-1x text-primary"></i>
                                     </span>
                                     <h4>
-                                        <strong>Insaan 5</strong>
+                                        <strong>Alcoholic Me</strong>
                                     </h4>
                                     <br>
                                     <button type="button" class="btn btn-light" data-toggle="modal" data-target="#q5">
@@ -437,7 +197,7 @@
                                     </button>
                                 </div>
                             </div>
-                            <!-- Q6 -->
+                            <!-- Q6 Special-->
                             <div class="col-md-3 col-sm-6">
                                 <div class="service-item">
                                     <span class="fa-stack fa-4x">
@@ -445,7 +205,7 @@
                                         <i class="fa fa-handshake-o fa-stack-1x text-primary"></i>
                                     </span>
                                     <h4>
-                                        <strong>Insaan 6</strong>
+                                        <strong>Weirdo ME</strong>
                                     </h4>
                                     <br>
                                     <button type="button" class="btn btn-light" data-toggle="modal" data-target="#q6">
@@ -463,7 +223,7 @@
                                         <i class="fa fa-volume-control-phone fa-stack-1x text-primary"></i>
                                     </span>
                                     <h4>
-                                        <strong>Insaan 7</strong>
+                                        <strong>Rude ME</strong>
                                     </h4>
                                     <br>
                                     <button type="button" class="btn btn-light" data-toggle="modal" data-target="#q7">
@@ -488,7 +248,7 @@
                                         <i class="fa fa-shopping-bag fa-stack-1x text-primary"></i>
                                     </span>
                                     <h4>
-                                        <strong>Insaan 8</strong>
+                                        <strong>Loveable ME</strong>
                                     </h4>
                                     <br>
                                     <button type="button" class="btn btn-light" data-toggle="modal" data-target="#q8">
@@ -506,7 +266,7 @@
                                         <i class="fa fa-bar-chart fa-stack-1x text-primary"></i>
                                     </span>
                                     <h4>
-                                        <strong>Insaan 9</strong>
+                                        <strong>Hardest</strong>
                                     </h4>
                                     <br>
                                     <button type="button" class="btn btn-light" data-toggle="modal" data-target="#q9">
@@ -537,12 +297,13 @@
                 <div class="modal-content">
 
                     <div class="modal-header">
-                        <h3 style="color:blue"><strong>Sample Question</strong></h3>
+                        <h3 style="color:blue"><strong>Moody Girl</strong></h3>
                     </div>
 
                     <div class="modal-body">
                         <div>
-                            <p class="project-aim"><b>What does your brother Pushp Call you?</b></p>
+                            <p class="project-aim"><b>The mood which you are in when are awake early. Feel fresh. Everything 
+                                around is positive and you feel good about it. Which mood am I ?</b></p>
                             <input id="sampleA" type="text" name="answer" autofocus>
                             <br><br>
                             <button type="button" class="btn" onclick="sampleCheck();">Open Surprise</button>
@@ -582,12 +343,6 @@
                         </button>
                         <h3 style="color:red"><strong>Incorrect Answer <i class="em em-stuck_out_tongue_closed_eyes"></i></strong></h3>
                         <strong><p id="msg"></p></strong>
-                    </div>
-                    <div class="modal-body">
-                        <div>
-                            <img id ="incorrectAnswer" width="100%" height="100%">
-                        </div>
-                        <br/>
                     </div>
                 </div>   
             </div>
