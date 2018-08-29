@@ -1,31 +1,10 @@
-function showCar1()
-{
-    
-    document.getElementById("car").style.visibility = "hidden";
-    document.getElementById("btnCar1").style.visibility = "hidden";
-    document.getElementById("btnCar2").style.visibility = "visible";
-    document.getElementById("car2").style.visibility = "visible"; 
-    document.getElementById("top").style.visibility = "hidden";
-}
 
-function showCar2()
-{
-    
-    document.getElementById("car2").style.visibility = "hidden";
-    document.getElementById("btnCar2").style.visibility = "hidden";
-    document.getElementById("car3").style.visibility = "visible";
-    
-}
-
-function showTop()
-{
-    document.getElementById("car3").style.visibility = "hidden";
-    document.getElementById("top").style.visibility = "visible";
-}
-
-function showMsg()
-{
-    alert("This Person has Requested a Call before you can see the video .. Please dial this number +91-9650430016. India ka no. hai T-Mobile se matt dial krna .. koi apna phone dedo isko!!!");
+function codeCheck() {
+    var answer = document.getElementById("answerCode").value;
+    if (answer == "1538") {
+        var url = "/rebel.html";
+        $(location).attr('href',url);
+    }
 }
 
 function sampleCheck()
@@ -37,9 +16,8 @@ function sampleCheck()
     }
     else
     {
-        document.getElementById("incorrectAnswer").src = "../img/emb/"+generateRandom()+".jpg";
         $("#sampleImgPusph").modal();
-        document.getElementById("msg").innerHTML = "Are you sure he calls you "+answer;
+        document.getElementById("msg").innerHTML = "Your mood isn't: "+answer;
     }
 }
 

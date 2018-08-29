@@ -28,11 +28,9 @@ function makeTimerChicago() {
 
     if(days==00 && hours==00 && minutes==0 && seconds ==0)
     {
-        //alert(minutes);
-        document.getElementById("chi").innerHTML = "Happy Birthday from all of us at TEEN GHAR!!!";
-        //document.getElementById("timerChicago").style.visibility = "hidden";
-        document.getElementById("btnDare3").style.visibility = "visible";
-
+        document.getElementById("chi").innerHTML = "Wishing you a Very Very Happpyyy B'day Goluuuuuu ...";
+        document.getElementById("btnNew").style.visibility = "visible";
+        
         clearInterval(chi);
     }
 
