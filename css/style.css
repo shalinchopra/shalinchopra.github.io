@@ -129,15 +129,15 @@ Main Components
   line-height: 1.8;
 }
 .cd-section:nth-of-type(2) .cd-half-block:first-of-type {
-  background-image: url("../img/img-1.jpg");
+  background-image: url("img/archive/img-1.jpg");
   background-size: cover;
 }
 .cd-section:nth-of-type(3) .cd-half-block:first-of-type {
-  background-image: url("../img/img-2.jpg");
+  background-image: url("img/archive/img-2.jpg");
   background-size: cover;
 }
 .cd-section:nth-of-type(4) .cd-half-block:first-of-type {
-  background-image: url("../img/img-3.jpg");
+  background-image: url("img/archive/img-3.jpg");
   background-size: cover;
 }
 
@@ -203,7 +203,7 @@ Main Components
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
-  background: transparent url(../img/cd-icon-arrow.svg) no-repeat center center;
+  background: transparent url(img/archive/cd-icon-arrow.svg) no-repeat center center;
   -webkit-transition: opacity 0.2s 0s, visibility 0.2s 0s;
   -moz-transition: opacity 0.2s 0s, visibility 0.2s 0s;
   transition: opacity 0.2s 0s, visibility 0.2s 0s;
