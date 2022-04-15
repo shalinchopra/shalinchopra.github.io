@@ -4,7 +4,7 @@ var chi = setInterval(function() { makeTimerChicago(); }, 1000);
 
 function makeTimerChicago() {
 
-    var endTime = new Date("August 30, 2018 00:00:00 CDT");	
+    var endTime = new Date("April 15, 2022 00:00:00 IST");	
     var endTime = (Date.parse(endTime)) / 1000;
 
     var now = new Date();
@@ -28,7 +28,7 @@ function makeTimerChicago() {
 
     if(days==00 && hours==00 && minutes==0 && seconds ==0)
     {
-        document.getElementById("chi").innerHTML = "Wishing you a Very Very Happpyyy B'day Goluuuuuu ...";
+        document.getElementById("india").innerHTML = "Wishing you a Very Very Happpyyy B'day Kidddooo ...";
         document.getElementById("btnNew").style.visibility = "visible";
         
         clearInterval(chi);
