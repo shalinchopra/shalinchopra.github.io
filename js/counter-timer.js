@@ -4,7 +4,7 @@ var chi = setInterval(function() { makeTimerChicago(); }, 1000);
 
 function makeTimerChicago() {
 
-    var endTime = new Date("April 15, 2022 00:00:00 IST");	
+    var endTime = new Date("April 15, 2022 00:00:00 CDT");	
     var endTime = (Date.parse(endTime)) / 1000;
 
     var now = new Date();
