@@ -33,7 +33,4 @@ function createTimer() {
         
         clearInterval(timerInd);
     }
-
 }
-
-
